@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Username_username'), U
 
 WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Password_password'), Password)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), Password)
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), ConfirmPassword)
 
 WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Email_email'), Email)
 
@@ -35,7 +35,9 @@ WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), Add
 
 WebUI.click(findTestObject('Page_Web Phone/Signup/button_Sign up'))
 
-Thread.sleep(3000)
+WebUI.verifyElementText(findTestObject('Page_Web Phone/Login/button_Login'), 'Login')
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

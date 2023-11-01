@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test-use-data file</name>
+   <name>test-use-data file</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5c2dbc9a-38d6-41c2-b290-aa102ad534ff</testCaseGuid>
@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Test Data Signup</testDataId>
+      <testDataId>Data Files/Signup/Test Data Signup</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>1495003e-a2c0-4522-b4b7-6b2e4d2e0202</testDataLinkId>
@@ -25,6 +25,12 @@
       <type>DATA_COLUMN</type>
       <value>Password</value>
       <variableId>9e005e71-5d3e-4db5-aceb-b3dc9a1706ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>1495003e-a2c0-4522-b4b7-6b2e4d2e0202</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Comfirm Password</value>
+      <variableId>3c8bdd56-c6b8-4870-a190-fc195cdcbf33</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>1495003e-a2c0-4522-b4b7-6b2e4d2e0202</testDataLinkId>
@@ -63,6 +69,13 @@
       <id>9e005e71-5d3e-4db5-aceb-b3dc9a1706ea</id>
       <masked>false</masked>
       <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c8bdd56-c6b8-4870-a190-fc195cdcbf33</id>
+      <masked>false</masked>
+      <name>ConfirmPassword</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

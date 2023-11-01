@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:5000/login')
+WebUI.callTestCase(findTestCase('Login/Success/test-use-data files'), [('Username') : '', ('Password') : ''], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_Web Phone/Login/input_Username_username'), Username)
-
-WebUI.setText(findTestObject('Page_Web Phone/Login/input_Username_username'), Password)
-
-WebUI.click(findTestObject('Page_Web Phone/Login/button_Login'))
-
-WebUI.closeBrowser()
+WebUI.acceptAlert()
 

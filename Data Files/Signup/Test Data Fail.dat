@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test Data Login</name>
+   <name>Test Data Fail</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>46fc747b-fb10-4747-820f-a5b91ac6494d</dataFileGUID>
-   <dataSourceUrl>D:\Workspace\Katalon\login.xlsx</dataSourceUrl>
+   <dataFileGUID>57e38543-fe25-4ca8-a047-e68454230749</dataFileGUID>
+   <dataSourceUrl>D:\Workspace\Katalon\Testing-Ecommerce-Web\signup.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
-   <properties>
-      <entry>
-         <key>readAsString</key>
-         <value>true</value>
-      </entry>
-   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>Sheet2</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
