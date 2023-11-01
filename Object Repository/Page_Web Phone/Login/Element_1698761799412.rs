@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value></value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1698761799412</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>b16b37a0-28c9-44d7-acaa-6765dcc32710</webElementGuid>
+      <webElementGuid>051cfbac-d36d-43a5-b214-39a26ba1b0e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +30,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1698761799412</value>
-      <webElementGuid>1acb9158-c1d8-4ca7-a0d5-ffba6e633ef0</webElementGuid>
+      <webElementGuid>95abc9a2-2c1d-4a51-8cb5-aea9fb6da72f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

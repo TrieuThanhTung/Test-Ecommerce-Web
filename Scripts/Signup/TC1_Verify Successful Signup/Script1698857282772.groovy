@@ -19,25 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://localhost:5000/signup')
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Username_username'), 'thanhtung2')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Username_username'), Username)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Password_password'), 'thanhtung')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Password_password'), Password)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), 'thanhtung2')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), ConfirmPassword)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Email_email'), 'thanhtung@katalon.com')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Email_email'), Email)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Age_age'), '20')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Age_age'), Age)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Phone_phone'), '0123345634')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Phone_phone'), Phone)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), 'Cau Giay - Ha Noi')
+WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), Address)
 
 WebUI.click(findTestObject('Page_Web Phone/Signup/button_Sign up'))
 
-WebUI.verifyElementText(findTestObject('Page_Web Phone/Signup/div_Username exists already'), 'Password and Confirmpassword not same')
-
-WebUI.delay(1)
+WebUI.verifyElementNotPresent(findTestObject('Page_Web Phone/Signup/button_Sign up'), 1)
 
 WebUI.closeBrowser()
 

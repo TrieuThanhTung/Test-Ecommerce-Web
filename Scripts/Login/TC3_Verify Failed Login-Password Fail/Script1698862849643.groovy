@@ -17,27 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://localhost:5000/signup')
+WebUI.openBrowser('http://localhost:5000/login')
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Username_username'), 'ducthuan3')
+WebUI.setViewPortSize(1920, 1280)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Password_password'), 'ducthuan3')
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Username_username'), '21020799')
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), 'ducthuan3')
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Password_password'), '1234567')
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Email_email'), '')
+WebUI.click(findTestObject('Page_Web Phone/Login/button_Login'))
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Age_age'), '20')
-
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Phone_phone'), '03554236432')
-
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), 'Cau Giay - Ha Noi')
-
-WebUI.click(findTestObject('Page_Web Phone/Signup/button_Sign up'))
-
-WebUI.verifyElementText(findTestObject('Page_Web Phone/h2_Sign up'), 'Sign up')
-
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('Page_Web Phone/Login/div_Invailid username or password'), 1)
 
 WebUI.closeBrowser()
 

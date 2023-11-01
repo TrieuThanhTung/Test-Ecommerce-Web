@@ -13,16 +13,20 @@
          <key>CSS</key>
          <value>input[name=&quot;username&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;flex-w flex-tr justify-content-center&quot;]/div[@class=&quot;size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md&quot;]/form[1]/div[@class=&quot;bor8 m-b-20 how-pos4-parent&quot;]/input[@class=&quot;stext-110 cl2 plh3 size-112 p-l-10 p-r-10 w-full&quot;][count(. | //input[@type = 'text' and @class = 'stext-110 cl2 plh3 size-112 p-l-10 p-r-10 w-full' and @name = 'username' and @placeholder = 'Username']) = count(//input[@type = 'text' and @class = 'stext-110 cl2 plh3 size-112 p-l-10 p-r-10 w-full' and @name = 'username' and @placeholder = 'Username'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2bed0034-f391-4573-a894-dd41293c5897</webElementGuid>
+      <webElementGuid>1a0557af-1e5e-452d-baf2-c5307262c701</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +34,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>437d0b3e-739c-4a2e-b1f4-b74f2f7e4ab1</webElementGuid>
+      <webElementGuid>287df181-8006-454d-b7e2-0a32817440ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>stext-110 cl2 plh3 size-112 p-l-10 p-r-10 w-full</value>
-      <webElementGuid>ca7abe24-f06c-4aa7-a732-021f35ca4311</webElementGuid>
+      <webElementGuid>455d5daf-c323-4f1f-aeca-795b8c1b44d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>b6a761c0-7699-419a-be01-c3906c385ca7</webElementGuid>
+      <webElementGuid>0a222407-2147-4bb6-ab2d-b92c1f307d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,15 +58,15 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>cc6322e6-c88b-44c3-b93b-0274cf30fc70</webElementGuid>
+      <webElementGuid>659abdde-ef17-4554-97d4-c6def6f70acf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;flex-w flex-tr justify-content-center&quot;]/div[@class=&quot;size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md&quot;]/form[1]/div[@class=&quot;bor8 m-b-20 how-pos4-parent&quot;]/input[@class=&quot;stext-110 cl2 plh3 size-112 p-l-10 p-r-10 w-full&quot;]</value>
-      <webElementGuid>49f7cf2a-b6cd-40ad-a5b6-bb213496a10e</webElementGuid>
+      <webElementGuid>8cde69f8-38a0-4c5d-8ddb-fee7d53db4a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='username']</value>
-      <webElementGuid>315c3b09-3476-4144-81ae-453481653455</webElementGuid>
+      <webElementGuid>c09f1a59-82e5-441e-bd42-6fbd1f8561ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>e6f30eb3-f2b4-4381-b810-36c087711c48</webElementGuid>
+      <webElementGuid>1d2ed591-cb0a-4dc6-ac18-c075905d506d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>e553b13e-b806-4405-a6e7-e43c923ebb59</webElementGuid>
+      <webElementGuid>faf2ba75-0e01-430b-80b2-e9947afa5272</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

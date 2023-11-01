@@ -13,24 +13,28 @@
          <key>CSS</key>
          <value>div.user-message.user-message--error.m-b-20</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-message user-message--error m-b-20&quot;][count(. | //div[@class = 'user-message user-message--error m-b-20' and (text() = 'Username exists already~!' or . = 'Username exists already~!')]) = count(//div[@class = 'user-message user-message--error m-b-20' and (text() = 'Username exists already~!' or . = 'Username exists already~!')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>348b1bf3-61a7-4078-a2b0-773bfcb74ca7</webElementGuid>
+      <webElementGuid>cd23de80-4f21-48ef-813a-116665d1651f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>user-message user-message--error m-b-20</value>
-      <webElementGuid>1e82cb37-de3c-4f6d-9bd3-9ca324a214e3</webElementGuid>
+      <webElementGuid>ca828d71-6ee1-4817-a32b-88fa245b613a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +42,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Username exists already~!</value>
-      <webElementGuid>a453f825-0b88-40c0-9804-ee2fb237fe1c</webElementGuid>
+      <webElementGuid>ab03bc6f-71cb-415d-97f6-fc3bea93ed19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-message user-message--error m-b-20&quot;]</value>
-      <webElementGuid>33dd380d-351c-49c5-bc12-5693cdc7486d</webElementGuid>
+      <webElementGuid>43866d27-bb05-41a8-a48b-8d79e4377716</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[1]/following::div[2]</value>
-      <webElementGuid>ed1e791d-3416-43ec-b4a0-8c0347aa5d00</webElementGuid>
+      <webElementGuid>e66df298-e2f6-4eb8-b3c6-433647bf1405</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::div[13]</value>
-      <webElementGuid>53fddc1b-3302-4733-ac8e-74fc6305dffc</webElementGuid>
+      <webElementGuid>cc36995f-5156-4ed0-ba3e-da10ff5a85ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::div[1]</value>
-      <webElementGuid>8fffa805-69c1-4c69-9f13-abce5a70191b</webElementGuid>
+      <webElementGuid>a098e9c4-5234-4809-8155-fce53920f66b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
-      <webElementGuid>e6893db1-7b8b-4d4a-a8bc-a880c5f81634</webElementGuid>
+      <webElementGuid>00b10a43-687d-4cfe-9fea-bb6fe5547de1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Username exists already~!']/parent::*</value>
-      <webElementGuid>022b0084-c497-4e16-83cd-e098edcb4b45</webElementGuid>
+      <webElementGuid>7459736e-00b3-4169-a21f-3942f2e55bcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/div/div</value>
-      <webElementGuid>bb42dbc4-3a95-4671-a0a4-05ff9245fbb9</webElementGuid>
+      <webElementGuid>0fa911fe-2b49-4377-8f80-0b178b9d0f77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Username exists already~!' or . = 'Username exists already~!')]</value>
-      <webElementGuid>e3321fff-b867-497c-a3dd-9c64e78acb9a</webElementGuid>
+      <webElementGuid>2ae4b169-8624-4bcf-a3cf-c1acbe6f42e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

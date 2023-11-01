@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test-use-data file</name>
+   <name>TC1_Verify Successful Signup</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5c2dbc9a-38d6-41c2-b290-aa102ad534ff</testCaseGuid>

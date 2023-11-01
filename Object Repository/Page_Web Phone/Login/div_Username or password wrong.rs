@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Invailid username or password</name>
+   <name>div_Username or password wrong</name>
    <tag></tag>
-   <elementGuidId>863019cf-eb07-4c89-a142-31fe17410a8a</elementGuidId>
+   <elementGuidId>71bed9af-71fe-4c88-aefb-c6d5ea0ba701</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-message user-message--error m-b-20&quot;][count(. | //div[@class = 'user-message user-message--error m-b-20' and (text() = 'Invailid username or password' or . = 'Invailid username or password')]) = count(//div[@class = 'user-message user-message--error m-b-20' and (text() = 'Invailid username or password' or . = 'Invailid username or password')])]</value>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-message user-message--error m-b-20&quot;][count(. | //div[@class = 'user-message user-message--error m-b-20' and (text() = 'Username or password wrong' or . = 'Username or password wrong')]) = count(//div[@class = 'user-message user-message--error m-b-20' and (text() = 'Username or password wrong' or . = 'Username or password wrong')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>167c2b79-6669-41ab-8b53-84b8a68be0ee</webElementGuid>
+      <webElementGuid>21e2dd44-5f02-45e9-bc12-beb76b2c5715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,15 +34,15 @@
       <name>class</name>
       <type>Main</type>
       <value>user-message user-message--error m-b-20</value>
-      <webElementGuid>3e14dbd4-9697-4f3b-9e77-a89b9ff537a6</webElementGuid>
+      <webElementGuid>bb874433-1413-4b59-8ea5-371be06caa78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invailid username or password</value>
-      <webElementGuid>ee05c5e4-ad92-4541-ab1b-3415c3cceadf</webElementGuid>
+      <value>Username or password wrong</value>
+      <webElementGuid>6b19bb45-f526-4438-a330-a3116852c7a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;user-message user-message--error m-b-20&quot;]</value>
-      <webElementGuid>ad0ce860-b17a-4119-9fdc-65d72112249f</webElementGuid>
+      <webElementGuid>277f0841-84d8-4c29-9bb1-5fd87115be33</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::div[2]</value>
-      <webElementGuid>a99ff381-991b-4068-886d-f03a8340246e</webElementGuid>
+      <webElementGuid>554fec31-caf9-483c-9324-bc2d7bba03f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[1]/following::div[13]</value>
-      <webElementGuid>559edc4b-06c2-4489-89c8-4bf47cd36b3e</webElementGuid>
+      <webElementGuid>2e9f1a04-9edd-4652-8189-fa9a5b5baba8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::div[1]</value>
-      <webElementGuid>e5dd93ea-cb2d-446a-81aa-704f4214cd6d</webElementGuid>
+      <webElementGuid>80d883e7-5b32-406d-9207-72f6b2b6fe82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,15 +82,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
-      <webElementGuid>e329f0ac-68c8-4b0a-887d-dbec8c641625</webElementGuid>
+      <webElementGuid>71a36c7f-69e7-4c6d-b349-b9c90654242f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Invailid username or password']/parent::*</value>
-      <webElementGuid>b61e9ac2-7fce-4412-a5f1-7d589f866032</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Username or password wrong']/parent::*</value>
+      <webElementGuid>f5b29799-cd26-4293-aab5-126a6d743eb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,14 +98,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/div/div</value>
-      <webElementGuid>74925401-34e6-410e-8639-7602c97e7985</webElementGuid>
+      <webElementGuid>8df75431-b866-441e-8d8f-5fc86f86dd8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Invailid username or password' or . = 'Invailid username or password')]</value>
-      <webElementGuid>7afed5da-2d8f-4524-8e23-cd9020185be4</webElementGuid>
+      <value>//div[(text() = 'Username or password wrong' or . = 'Username or password wrong')]</value>
+      <webElementGuid>eee6a338-bbf5-4fa9-8948-e881d251accd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

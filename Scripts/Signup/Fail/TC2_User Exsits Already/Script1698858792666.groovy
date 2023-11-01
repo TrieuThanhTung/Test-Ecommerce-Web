@@ -35,9 +35,7 @@ WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), 'Ca
 
 WebUI.click(findTestObject('Page_Web Phone/Signup/button_Sign up'))
 
-WebUI.verifyElementText(findTestObject('Page_Web Phone/Signup/div_Password and Confirmpassword not same'), 'Username exists already~!')
-
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('Page_Web Phone/Signup/div_Username exists already'), 1)
 
 WebUI.closeBrowser()
 

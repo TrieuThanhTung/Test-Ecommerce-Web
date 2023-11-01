@@ -14,30 +14,24 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('http://localhost:5000/signup')
+WebUI.openBrowser('http://localhost:5000/login')
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Username_username'), Username)
+WebUI.setViewPortSize(1920, 1280)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Password_password'), Password)
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Username_username'), Username)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Comfirm Password_confirmpassword'), ConfirmPassword)
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Password_password'), Password)
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Email_email'), Email)
+WebUI.click(findTestObject('Page_Web Phone/Login/button_Login'))
 
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Age_age'), Age)
-
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Phone_phone'), Phone)
-
-WebUI.setText(findTestObject('Page_Web Phone/Signup/input_Address_address'), Address)
-
-WebUI.click(findTestObject('Page_Web Phone/Signup/button_Sign up'))
-
-WebUI.verifyElementText(findTestObject('Page_Web Phone/Login/button_Login'), 'Login')
+WebUI.verifyElementVisible(findTestObject('Page_Web Phone/button_Logout'))
 
 WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Page_Web Phone/button_Logout'), 2)
 
 WebUI.closeBrowser()
 

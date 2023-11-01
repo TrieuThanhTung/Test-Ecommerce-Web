@@ -13,16 +13,28 @@
          <key>CSS</key>
          <value>button.flex-c-m.trans-04.p-lr-25.form-in-a.active-top</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/header[1]/div[@class=&quot;container-menu-desktop&quot;]/div[@class=&quot;top-bar&quot;]/div[@class=&quot;content-topbar flex-sb-m h-full container&quot;]/div[@class=&quot;right-top-bar flex-w h-full&quot;]/form[1]/button[@class=&quot;flex-c-m trans-04 p-lr-25  form-in-a active-top&quot;][count(. | //button[@type = 'submit' and @class = 'flex-c-m trans-04 p-lr-25  form-in-a active-top' and (text() = '
+								Logout
+							' or . = '
+								Logout
+							')]) = count(//button[@type = 'submit' and @class = 'flex-c-m trans-04 p-lr-25  form-in-a active-top' and (text() = '
+								Logout
+							' or . = '
+								Logout
+							')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5558445d-bb2e-44bf-bfea-fc9b8295a670</webElementGuid>
+      <webElementGuid>bd63d646-950d-4985-930e-7e0d9e56de3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +42,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>6b369942-7be2-4507-96ad-74c4d8141ef7</webElementGuid>
+      <webElementGuid>1bc60077-3cac-4518-b554-365570425ecf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>flex-c-m trans-04 p-lr-25  form-in-a active-top</value>
-      <webElementGuid>e9c109b4-4103-406b-90c4-0b0643604a3a</webElementGuid>
+      <webElementGuid>4996c9a3-c263-491e-be82-8a71be925879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,15 +60,15 @@
       <value>
 								Logout
 							</value>
-      <webElementGuid>409df464-2f2b-4e8a-b57d-17e934fbe740</webElementGuid>
+      <webElementGuid>d2516226-3956-4a6d-a354-3cd444eaf5e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;animsition&quot;]/header[1]/div[@class=&quot;container-menu-desktop&quot;]/div[@class=&quot;top-bar&quot;]/div[@class=&quot;content-topbar flex-sb-m h-full container&quot;]/div[@class=&quot;right-top-bar flex-w h-full&quot;]/form[1]/button[@class=&quot;flex-c-m trans-04 p-lr-25  form-in-a active-top&quot;]</value>
-      <webElementGuid>328efa9d-7689-4154-b957-3f7ea7a737c8</webElementGuid>
+      <webElementGuid>3760ac2c-d27f-4e8e-96fc-0ba07ef1449a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +76,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>130b66ca-916a-4e9a-8139-059a65826a95</webElementGuid>
+      <webElementGuid>e1167c0a-3273-4b13-be6b-c6f08d0f9334</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='katalon1'])[1]/preceding::button[1]</value>
-      <webElementGuid>6bc101e6-27db-40b6-8784-36c9e8f41a7c</webElementGuid>
+      <webElementGuid>16038bf0-4fa2-45c7-8d44-678e7b1fc0dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello, Welcome to My Website'])[1]/preceding::button[1]</value>
-      <webElementGuid>19e716fa-e772-45d4-805d-1dddaed66014</webElementGuid>
+      <webElementGuid>b65803e2-b866-467d-b891-b7fbca588dbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
-      <webElementGuid>2b059bc7-6890-4a2c-ae48-f96d946b5fc1</webElementGuid>
+      <webElementGuid>fb77ade1-7fb9-484b-a5df-004834d10912</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>5ca66dba-a45a-4c6c-80bf-d3fb9197ea8c</webElementGuid>
+      <webElementGuid>64299f9d-141a-4a77-a8e7-30ae11344c56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +120,6 @@
 							' or . = '
 								Logout
 							')]</value>
-      <webElementGuid>2d7f7a5c-fc7a-467c-a33c-04d2a0573b7a</webElementGuid>
+      <webElementGuid>43538ea9-9c09-4f4a-a139-360990ca2e9b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

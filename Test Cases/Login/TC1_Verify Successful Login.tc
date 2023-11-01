@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test-use-data files</name>
+   <name>TC1_Verify Successful Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3733b0b2-600c-4a8c-9445-2e3245932120</testCaseGuid>
+   <testCaseGuid>45ffa5bd-a214-4f37-83e5-bf9c557bd50f</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>63f4a8d2-52c7-4ed9-bfac-43e21f31d6ae</id>
+      <id>56fd4dfc-ff7a-4800-a770-88e2d03eed4f</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Login/Test Data Fail</testDataId>
+      <testDataId>Data Files/Login/Test Data Success</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>63f4a8d2-52c7-4ed9-bfac-43e21f31d6ae</testDataLinkId>
+      <testDataLinkId>56fd4dfc-ff7a-4800-a770-88e2d03eed4f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Username</value>
-      <variableId>6f6faa70-b31d-4a86-beb6-5d0178e592ee</variableId>
+      <variableId>c2ab5f65-c4c4-45e1-8d67-a8eb4d493ed6</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>63f4a8d2-52c7-4ed9-bfac-43e21f31d6ae</testDataLinkId>
+      <testDataLinkId>56fd4dfc-ff7a-4800-a770-88e2d03eed4f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Password</value>
-      <variableId>84870122-78a2-41b9-9768-b61946737a71</variableId>
+      <variableId>cd327494-70ce-48bc-9514-e8518a0c7c4a</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>6f6faa70-b31d-4a86-beb6-5d0178e592ee</id>
+      <id>c2ab5f65-c4c4-45e1-8d67-a8eb4d493ed6</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>84870122-78a2-41b9-9768-b61946737a71</id>
+      <id>cd327494-70ce-48bc-9514-e8518a0c7c4a</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

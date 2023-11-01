@@ -13,16 +13,28 @@
          <key>CSS</key>
          <value>button.flex-c-m.stext-101.cl0.size-121.bg3.bor1.hov-btn3.p-lr-15.trans-04.pointer</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;flex-w flex-tr justify-content-center&quot;]/div[@class=&quot;size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md&quot;]/form[1]/button[@class=&quot;flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer&quot;][count(. | //button[@type = 'submit' and @class = 'flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer' and (text() = '
+                                Sign up
+                            ' or . = '
+                                Sign up
+                            ')]) = count(//button[@type = 'submit' and @class = 'flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer' and (text() = '
+                                Sign up
+                            ' or . = '
+                                Sign up
+                            ')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>62e39272-96dc-4272-a111-fe5141cc11a6</webElementGuid>
+      <webElementGuid>05d8e715-cf66-4024-b78a-9eed29d6de90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,15 +42,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>30bd2ec1-3d43-4c92-bf1c-2724a640ea96</webElementGuid>
+      <webElementGuid>439bd1aa-de5a-4d59-80dc-3b651ac76ba8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer</value>
-      <webElementGuid>08111e75-27fc-4186-b80c-9200b5c794bb</webElementGuid>
+      <webElementGuid>38d14a64-9db0-4b0f-82a7-da12a37fd929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,15 +60,15 @@
       <value>
                                 Sign up
                             </value>
-      <webElementGuid>468a4dca-e253-42e3-a097-452508092495</webElementGuid>
+      <webElementGuid>3f18f060-bb88-4d32-8bb3-d16d42aee761</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;animsition&quot;]/section[@class=&quot;bg0 p-t-104 p-b-116&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;flex-w flex-tr justify-content-center&quot;]/div[@class=&quot;size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md&quot;]/form[1]/button[@class=&quot;flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer&quot;]</value>
-      <webElementGuid>d6a738ac-ac7a-4c3e-8b07-ebca154b9171</webElementGuid>
+      <webElementGuid>488fd5f5-b216-4e33-8b2a-93fcc878bcbd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,7 +76,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='submit'])[2]</value>
-      <webElementGuid>078fc16d-5764-4252-859b-9261f127beb3</webElementGuid>
+      <webElementGuid>4936cdf7-34fb-4ef3-9eb9-4034639f0db5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Address'])[1]/following::button[1]</value>
-      <webElementGuid>5bb5f938-f586-491b-9485-ae93f9468bc7</webElementGuid>
+      <webElementGuid>8eefb955-6aa8-4a0d-b479-ef8c9a16e4a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::button[1]</value>
-      <webElementGuid>901152ee-eb2b-4450-b29b-75a49e1dba3b</webElementGuid>
+      <webElementGuid>9912cbd0-41e3-4f84-ab12-56ab1a0a107a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lost your password?'])[1]/preceding::button[1]</value>
-      <webElementGuid>05cc9f94-1171-4554-bde1-ae2b74117816</webElementGuid>
+      <webElementGuid>58778026-40c0-4c17-801d-b73a7434dd5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Products'])[1]/preceding::button[1]</value>
-      <webElementGuid>96e428c4-1ff3-4ee0-b21f-40ce83c13dc3</webElementGuid>
+      <webElementGuid>2c397c69-d447-48c5-8b86-596e5118af0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/form/button</value>
-      <webElementGuid>85f51ef5-00c4-4ac0-bf7b-a120e889b820</webElementGuid>
+      <webElementGuid>c3f9d2af-6a77-4f85-8a70-82251d9b39af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,6 +128,6 @@
                             ' or . = '
                                 Sign up
                             ')]</value>
-      <webElementGuid>40bc8092-4878-4e92-be97-3c8abe3f1141</webElementGuid>
+      <webElementGuid>40de3636-24ba-45f1-be83-5fc04592302a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
