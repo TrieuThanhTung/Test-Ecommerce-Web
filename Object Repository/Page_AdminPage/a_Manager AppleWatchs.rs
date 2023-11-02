@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Manager AppleWatchs</name>
+   <tag></tag>
+   <elementGuidId>b3f196b6-bd9d-4574-9496-6ca5913be4e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(9) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-menu']/ul/li[9]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cd8e3c06-fafe-40f8-a32b-add1626ceea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/adminTin/managerapplewatch</value>
+      <webElementGuid>3745ec61-5563-49f2-95d0-ffd63bf10295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Manager AppleWatchs </value>
+      <webElementGuid>07411885-b8e1-4935-b177-808500ec963d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-menu&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[9]/a[1]</value>
+      <webElementGuid>8262b369-4ce2-450b-92cf-f4cde5b1d5e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-menu']/ul/li[9]/a</value>
+      <webElementGuid>72e44621-fcfa-4505-996c-5bab3fa348d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Manager AppleWatchs']/parent::*</value>
+      <webElementGuid>c2a31d8a-3581-447b-bfe2-026f7d790425</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/adminTin/managerapplewatch')]</value>
+      <webElementGuid>25f346f0-1ee9-4703-af63-b2a071d0168f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/a</value>
+      <webElementGuid>7a15fe4d-1cb0-46ac-9a70-b549cfa017e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/adminTin/managerapplewatch' and (text() = ' Manager AppleWatchs ' or . = ' Manager AppleWatchs ')]</value>
+      <webElementGuid>f7e29cac-1ad2-4185-8081-f86ca6bef0a5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

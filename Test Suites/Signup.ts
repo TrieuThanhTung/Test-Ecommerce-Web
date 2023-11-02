@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>Password</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Signup/TC1_Verify Successful Signup</testCaseId>
+      <testCaseId>Test Cases/Customer/Signup/TC1_Verify Successful Signup</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4539f71a-e776-49ad-b440-c87005b089bc</id>
@@ -80,21 +80,21 @@
       <guid>a34de109-368f-46a4-9f31-6a3a48fee34f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Signup/Fail/TC3_Password Not Same</testCaseId>
+      <testCaseId>Test Cases/Customer/Signup/Fail/TC3_Password Not Same</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7eb456f5-61cf-4a83-bd75-a9fa6d23c7d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Signup/Fail/TC2_User Exsits Already</testCaseId>
+      <testCaseId>Test Cases/Customer/Signup/Fail/TC2_User Exsits Already</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>777e43ce-e070-4bfc-900e-8dd935644b37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Signup/Fail/TC4_Leak A Field</testCaseId>
+      <testCaseId>Test Cases/Customer/Signup/Fail/TC4_Leak A Field</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

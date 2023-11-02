@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Shipping_name</name>
+   <tag></tag>
+   <elementGuidId>6c75f61e-afbe-499c-a64a-34a1cb3857d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;name&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;animsition&quot;]/form[@class=&quot;bg0 p-t-75 p-b-85&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50&quot;]/div[@class=&quot;bor10 p-lr-40 p-t-30 p-b-40 m-l-63  m-lr-0-xl p-lr-15-sm&quot;]/div[@class=&quot;flex-w flex-t bor12 p-t-15 p-b-30&quot;]/div[@class=&quot;size-209 p-r-18 p-r-0-sm w-full-ssm&quot;]/div[@class=&quot;p-t-15&quot;]/div[@class=&quot;bor8 bg0 m-b-12&quot;]/input[@class=&quot;stext-111 cl8 plh3 size-111 p-lr-15&quot;][count(. | //input[@class = 'stext-111 cl8 plh3 size-111 p-lr-15' and @type = 'text' and @name = 'name' and @placeholder = 'Full name']) = count(//input[@class = 'stext-111 cl8 plh3 size-111 p-lr-15' and @type = 'text' and @name = 'name' and @placeholder = 'Full name'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='name']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>848a4163-75b2-4380-a350-a59f219ae268</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>stext-111 cl8 plh3 size-111 p-lr-15</value>
+      <webElementGuid>35c7e678-b2b0-49b3-a84c-c13c255779f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7ab6fc11-4133-4e4b-919d-4c64d4994ddc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>5ab1f48f-70f9-46c9-a13a-6ed328ce5e5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Full name</value>
+      <webElementGuid>877a6147-9030-4190-9836-7e1e6ebd16a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;animsition&quot;]/form[@class=&quot;bg0 p-t-75 p-b-85&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50&quot;]/div[@class=&quot;bor10 p-lr-40 p-t-30 p-b-40 m-l-63  m-lr-0-xl p-lr-15-sm&quot;]/div[@class=&quot;flex-w flex-t bor12 p-t-15 p-b-30&quot;]/div[@class=&quot;size-209 p-r-18 p-r-0-sm w-full-ssm&quot;]/div[@class=&quot;p-t-15&quot;]/div[@class=&quot;bor8 bg0 m-b-12&quot;]/input[@class=&quot;stext-111 cl8 plh3 size-111 p-lr-15&quot;]</value>
+      <webElementGuid>fb977ee3-d3e7-4aac-a848-cd71b1f365e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='name']</value>
+      <webElementGuid>33e3cc5e-0c98-48e0-84ad-925833cc7879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>2e483e30-9d68-4d57-a5db-6a725df1243e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'name' and @placeholder = 'Full name']</value>
+      <webElementGuid>f603b529-c55b-4c34-8d4c-687a6399b26d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

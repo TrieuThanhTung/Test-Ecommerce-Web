@@ -17,7 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/TC1_Verify Successful Login'), [('Username') : '', ('Password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('http://localhost:5000/login')
 
-WebUI.acceptAlert()
+WebUI.setViewPortSize(1920, 1280)
+
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Username_username'), 'admin')
+
+WebUI.setText(findTestObject('Page_Web Phone/Login/input_Password_password'), 'admin')
+
+WebUI.click(findTestObject('Page_Web Phone/Login/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Page_AdminPage/a_Manager Users'), 1)
+
+WebUI.click(findTestObject('Page_AdminPage/a_Manager Users'))
+
+WebUI.click(findTestObject('Page_AdminPage/Manage User/i_Sun May 07 2023_fa fa-pencil-square-o'))
+
+WebUI.setText(findTestObject('Page_AdminPage/Manage User/input_Address_address'), 'Cau Giay - Ha Noi')
+
+WebUI.click(findTestObject('Page_AdminPage/Manage User/button_Save'))
+
+WebUI.verifyElementPresent(findTestObject('Page_AdminPage/a_Manager Users'), 1)
+
+WebUI.click(findTestObject('Page_AdminPage/a_Manager Users'))
+
+WebUI.click(findTestObject('Page_AdminPage/Manage User/i_Sun May 07 2023_fa fa-pencil-square-o'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

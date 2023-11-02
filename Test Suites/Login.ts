@@ -15,7 +15,7 @@
       <guid>c32cb722-e055-490b-8d48-bc374f618407</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC1_Verify Successful Login</testCaseId>
+      <testCaseId>Test Cases/Customer/Login/TC1_Verify Successful Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d92b4a0b-33b4-472e-8095-bb5114cdbe8b</id>
@@ -52,7 +52,7 @@
       <guid>7ae65be3-e9ce-403b-9ff1-d4fe8c64b721</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC2_Verify Failed Login-Username Not Exsit</testCaseId>
+      <testCaseId>Test Cases/Customer/Login/TC2_Verify Failed Login-Username Not Exsit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>65f23e62-d292-40a0-994b-ab52949ef82f</id>
