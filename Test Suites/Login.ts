@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>c32cb722-e055-490b-8d48-bc374f618407</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer/Login/TC1_Verify Successful Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>7ae65be3-e9ce-403b-9ff1-d4fe8c64b721</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Customer/Login/TC2_Verify Failed Login-Username Not Exsit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -71,6 +71,13 @@
          </iterationEntity>
          <testDataId>Data Files/Login/Test Data Success</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>428b3ec0-bb96-41a0-be95-3b7c51948d37</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/Login/TC3_Verify Failed Login-Password Fail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

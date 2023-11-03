@@ -4,8 +4,8 @@
    <name>Signup</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <mailRecipient>tungteg264@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -75,6 +75,13 @@
          <value>Address</value>
          <variableId>67c22adb-7b3d-4b7b-a52f-a30dfeb1fe40</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>969ce910-d012-46ce-91b2-37fb509fb65b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/Signup/Fail/TC1_Verify Password Greater Than 6 Char</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a34de109-368f-46a4-9f31-6a3a48fee34f</guid>

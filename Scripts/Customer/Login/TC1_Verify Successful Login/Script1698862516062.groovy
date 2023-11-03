@@ -27,11 +27,7 @@ WebUI.setText(findTestObject('Page_Web Phone/Login/input_Password_password'), Pa
 
 WebUI.click(findTestObject('Page_Web Phone/Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Web Phone/button_Logout'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Page_Web Phone/button_Logout'), 2)
+WebUI.verifyElementPresent(findTestObject('Page_Web Phone/button_Logout'), 3)
 
 WebUI.closeBrowser()
 

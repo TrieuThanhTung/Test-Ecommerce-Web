@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1_View Item And Order</name>
+   <name>TC1_Verify Add Item And Order</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ab5f1043-c268-4045-b191-d221ae223d84</testCaseGuid>
